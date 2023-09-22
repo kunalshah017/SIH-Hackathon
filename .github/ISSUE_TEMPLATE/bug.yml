@@ -1,7 +1,10 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
 title: "[BUG] <what went wrong>"
-labels: ["bug"]
+labels:
+  [
+    "bug"
+  ]
 body:
   - type: textarea
     id: description
@@ -26,7 +29,7 @@ body:
       required: false
 
   - type: dropdown
-    id: browser
+    id: os
     attributes:
       label: "Operating System"
       description: "Which OS are you Using ?"
@@ -37,19 +40,19 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+        - type: dropdown
     id: browser
     attributes:
       label: "Browser"
-      description: "Which browser are you using ?"
+      description: "Which Browser are you Using ?"
       options:
         - "Chrome"
-        - "Firefox"
         - "Edge"
         - "Safari"
-        - "Opera"
+        - "FireFox"
     validations:
       required: true
+
 
   - type: checkboxes
     id: no-duplicate-issues
