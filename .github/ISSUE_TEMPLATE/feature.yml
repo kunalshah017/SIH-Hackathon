@@ -1,10 +1,7 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for this project? Would love to hear it!
 title: "[FEATURE] <what do you have to add>"
-labels:
-  [
-    "enhancement",
-  ]
+labels: ["enhancement"]
 body:
   - type: textarea
     id: description
@@ -20,6 +17,7 @@ body:
       description: Please add screenshots if applicable
     validations:
       required: false
+
   - type: textarea
     id: extrainfo
     attributes:
@@ -36,14 +34,8 @@ body:
         - label: "I checked and didn't find similar issue"
           required: true
 
-
   - type: dropdown
     attributes:
-      label: Are you willing to work on this issue 
+      label: Are you willing to work on this issue
       options:
         - "Yes I am willing to submit a PR!"
-
-  - type: markdown
-    attributes:
-      value: |
-        Follow me on Twitter [here](https://twitter.com/kunalshah017)

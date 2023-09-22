@@ -1,10 +1,7 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
 title: "[BUG] <what went wrong>"
-labels:
-  [
-    "bug"
-  ]
+labels: ["bug"]
 body:
   - type: textarea
     id: description
@@ -40,6 +37,20 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: browser
+    attributes:
+      label: "Browser"
+      description: "Which browser are you using ?"
+      options:
+        - "Chrome"
+        - "Firefox"
+        - "Edge"
+        - "Safari"
+        - "Opera"
+    validations:
+      required: true
+
   - type: checkboxes
     id: no-duplicate-issues
     attributes:
@@ -48,21 +59,8 @@ body:
         - label: "I checked and didn't find similar issue"
           required: true
 
-  - type: checkboxes
-    id: read-code-of-conduct
-    attributes:
-      label: "🏢 Have you read the Contributing Guidelines?"
-      options:
-        - label: "I have read and understood the rules in the [Contributing Guidelines](https://github.com/kunalshah017/ATM-Simulator/blob/master/CONTRIBUTING.md)"
-          required: true
-
   - type: dropdown
     attributes:
       label: Are you willing to work on this issue ?
       options:
         - "Yes I am willing to submit a PR!"
-
-  - type: markdown
-    attributes:
-      value: |
-        Follow me on Twitter [here](https://twitter.com/kunalshah017)
