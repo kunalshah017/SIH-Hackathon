@@ -124,3 +124,22 @@ body {
     transform: translate(-50%, -50%);
     z-index: 1;
 }
+
+.chatbot-hidden {
+    display: none;
+}
+
+.chat-button{
+    background-color: white;
+    color: #3052f5;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
