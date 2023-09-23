@@ -1,67 +1,63 @@
-name: 🐛 Bug
-description: Report an issue to help improve the project.
+name: "🐛 Bug"
+description: "Report an issue to help improve the project."
 title: "[BUG] <what went wrong>"
-labels: ["bug"]
+labels:
+  - "bug"
 body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: A brief description of the question or issue, also include what you tried and what didn't work
+      label: "Description"
+      description: "A brief description of the question or issue, also include what you tried and what didn't work"
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
-      description: Please add screenshots if applicable
+      label: "Screenshots"
+      description: "Please add screenshots if applicable"
     validations:
       required: false
   - type: textarea
     id: extrainfo
     attributes:
-      label: Additional information
-      description: Is there anything else we should know about this bug?
+      label: "Additional information"
+      description: "Is there anything else we should know about this bug?"
     validations:
       required: false
-
   - type: dropdown
-    id: operating-system
+    id: os
     attributes:
       label: "Operating System"
-      description: "Which OS are you Using ?"
+      description: "Which OS are you using?"
       options:
         - "Windows 7/10/11"
         - "Linux"
         - "Mac"
     validations:
       required: true
-
   - type: dropdown
     id: browser
     attributes:
       label: "Browser"
-      description: "Which Browser are you using ?"
+      description: "Which browser are you using?"
       options:
         - "Chrome"
-        - "Firefox"
         - "Edge"
         - "Safari"
-        - "Opera"
-        - "Other"
+        - "FireFox"
     validations:
       required: true
-
   - type: checkboxes
     id: no-duplicate-issues
     attributes:
       label: "👀 Have you checked if this issue has been raised before?"
       options:
-        - label: "I checked and didn't find similar issue"
+        - label: "I checked and didn't find a similar issue"
           required: true
-
   - type: dropdown
+    id: willing-to-work
     attributes:
-      label: Are you willing to work on this issue ?
+      label: "Are you willing to work on this issue?"
       options:
-        - "Yes I am willing to submit a PR!"
+        - "Yes, I am willing to submit a PR!"
