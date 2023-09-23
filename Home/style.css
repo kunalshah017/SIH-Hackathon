@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.blue-box {
+    background-color: #3052f5;
+    height: 100vh;
+    width: 100vh;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: #3052f5;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+.nav-links a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    margin-left: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links a:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 5px;
+}
+
+.main-body-text {
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-body-text h1 {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 1000;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+
+.main-body-image {
+    position: absolute;
+    top: 17%; /* Adjust the vertical position as needed */
+    right: 45%; /* Adjust the horizontal position as needed */
+    z-index: 1;
+    width: 200px; /* Adjust the width to your desired size */
+}
+
+.quiz-button {
+    background-color: white;
+    color: #3052f5;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    right: 5%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.quiz-button:hover {
+    background-color: #f0f0f0;
+    color: #3052f5;
+    text-decoration: none;
+}
+
+.paragraph-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 57%; /* Adjust the vertical position as needed */
+    left: 87.5%; /* Adjust the horizontal position as needed */
+    width:15%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
