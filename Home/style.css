@@ -7,7 +7,7 @@ body {
 .blue-box {
     background-color: #3052f5;
     height: 100vh;
-    width: 100vw;
+    width: 100vh;
     z-index: -1;
 }
 
@@ -40,6 +40,8 @@ body {
 }
 
 .nav-links a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
     margin-left: 25px;
     color: #fff;
     text-decoration: none;
@@ -116,9 +118,9 @@ body {
     font-size: 12px;
     text-align: center;
     position: absolute;
-    top: 55%; /* Adjust the vertical position as needed */
-    left: 87%; /* Adjust the horizontal position as needed */
+    top: 57%; /* Adjust the vertical position as needed */
+    left: 87.5%; /* Adjust the horizontal position as needed */
+    width:15%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Adjust the width to your desired size */
     z-index: 1;
 }
