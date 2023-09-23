@@ -1,0 +1,481 @@
+.main-page {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-page .div {
+  overflow-x: hidden;
+  width: 1920px;
+  height: 1097px;
+  position: relative;
+}
+
+.main-page .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 1097px;
+  top: -81px;
+  left: 26px;
+}
+
+.main-page .nav-bar {
+  position: absolute;
+  width: 1920px;
+  height: 1097px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-group {
+  position: relative;
+  width: 1928px;
+  height: 2023px;
+  top: 32px;
+  left: -35px;
+  background-image: url(./img/rectangle-4415.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .overlap-2 {
+  position: absolute;
+  width: 137px;
+  height: 52px;
+  top: 47px;
+  left: 1641px;
+}
+
+.main-page .text-wrapper {
+  position: absolute;
+  width: 131px;
+  top: 0;
+  left: 3px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.main-page .line {
+  position: absolute;
+  width: 137px;
+  height: 6px;
+  top: 46px;
+  left: 0;
+}
+
+.main-page .text-wrapper-2 {
+  position: absolute;
+  width: 222px;
+  top: 47px;
+  left: 943px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-3 {
+  position: absolute;
+  width: 212px;
+  top: 47px;
+  left: 1418px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-4 {
+  position: absolute;
+  width: 163px;
+  top: 47px;
+  left: 739px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.main-page .overlap-3 {
+  position: absolute;
+  width: 1832px;
+  height: 909px;
+  top: 130px;
+  left: 56px;
+}
+
+.main-page .text-wrapper-5 {
+  position: absolute;
+  width: 414px;
+  top: 70px;
+  left: 22px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 1.92px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .overlap-4 {
+  position: absolute;
+  width: 1832px;
+  height: 909px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .overlap-5 {
+  position: absolute;
+  width: 1312px;
+  height: 579px;
+  top: 330px;
+  left: 0;
+}
+
+.main-page .text-wrapper-6 {
+  position: absolute;
+  width: 463px;
+  top: 0;
+  left: 451px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 1.28px;
+  line-height: normal;
+}
+
+.main-page .p {
+  position: absolute;
+  width: 1312px;
+  top: 98px;
+  left: 0;
+  -webkit-text-stroke: 1px #fef6f6;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: normal;
+}
+
+.main-page .rectangle {
+  position: absolute;
+  width: 603px;
+  height: 357px;
+  top: 0;
+  left: 1229px;
+  object-fit: cover;
+}
+
+.main-page .text-wrapper-7 {
+  position: absolute;
+  width: 211px;
+  top: 47px;
+  left: 1199px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-8 {
+  position: absolute;
+  width: 592px;
+  top: 145px;
+  left: 73px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: 120px;
+  white-space: nowrap;
+}
+
+.main-page .overlap-6 {
+  position: absolute;
+  width: 1967px;
+  height: 1339px;
+  top: 1046px;
+  left: -52px;
+}
+
+.main-page .rectangle-2 {
+  position: absolute;
+  width: 1922px;
+  height: 419px;
+  top: 920px;
+  left: 45px;
+  background-color: #201818;
+}
+
+.main-page .chat {
+  position: absolute;
+  width: 750px;
+  height: 459px;
+  top: 79px;
+  left: 1150px;
+}
+
+.main-page .overlap-7 {
+  position: relative;
+  width: 753px;
+  height: 459px;
+}
+
+.main-page .ellipse {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: 21px;
+  left: 658px;
+  background-color: #fa8d28;
+  border-radius: 47.5px;
+  border: 3px solid;
+  border-color: #fa8d2880;
+  box-shadow: 0px 0px 20px #fa8d2980;
+}
+
+.main-page .mask-group {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 44px;
+  left: 681px;
+}
+
+.main-page .img {
+  position: absolute;
+  width: 681px;
+  height: 459px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.main-page .the-team-ananya {
+  position: absolute;
+  width: 797px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1.28px;
+  line-height: normal;
+}
+
+.main-page .span {
+  font-style: italic;
+}
+
+.main-page .text-wrapper-9 {
+  font-style: italic;
+  font-size: 64px;
+  letter-spacing: 1.92px;
+}
+
+.main-page .text-wrapper-10 {
+  font-style: italic;
+  font-size: 48px;
+  letter-spacing: 0.96px;
+}
+
+.main-page .text-wrapper-11 {
+  font-style: italic;
+  font-size: 32px;
+  letter-spacing: 0.64px;
+}
+
+.main-page .rectangle-3 {
+  position: absolute;
+  width: 732px;
+  height: 839px;
+  top: 278px;
+  left: 481px;
+}
+
+.main-page .group {
+  position: absolute;
+  width: 1802px;
+  height: 127px;
+  top: 1031px;
+  left: 98px;
+}
+
+.main-page .overlap-8 {
+  position: relative;
+  width: 1816px;
+  height: 127px;
+}
+
+.main-page .group-2 {
+  position: absolute;
+  width: 1816px;
+  height: 127px;
+  top: 0;
+  left: 0;
+}
+
+.main-page .text-wrapper-12 {
+  position: absolute;
+  width: 85px;
+  top: 108px;
+  left: 0;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-13 {
+  position: absolute;
+  width: 125px;
+  top: 54px;
+  left: 1677px;
+  opacity: 0.5;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-14 {
+  position: absolute;
+  width: 118px;
+  top: 0;
+  left: 1683px;
+  opacity: 0.5;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-15 {
+  position: absolute;
+  width: 87px;
+  top: 108px;
+  left: 303px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-16 {
+  position: absolute;
+  width: 326px;
+  top: 108px;
+  left: 1476px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-17 {
+  position: absolute;
+  width: 73px;
+  top: 108px;
+  left: 206px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .text-wrapper-18 {
+  position: absolute;
+  width: 74px;
+  top: 108px;
+  left: 109px;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-page .div-wrapper {
+  position: absolute;
+  width: 466px;
+  height: 55px;
+  top: 10px;
+  left: 0;
+}
+
+.main-page .text-wrapper-19 {
+  position: absolute;
+  width: 464px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto Flex", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.64px;
+  line-height: 38.4px;
+  text-decoration: underline;
+}
+
+.main-page .rectangle-4 {
+  position: absolute;
+  width: 493px;
+  height: 206px;
+  top: 727px;
+  left: 2596px;
+  object-fit: cover;
+}
