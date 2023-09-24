@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
+.nav-home-button{
+    display: none;
+}
+
 .blue-box {
     background-color: #3052f5;
     height: 100vh;
