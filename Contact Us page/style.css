@@ -361,7 +361,7 @@
 .frame .text-wrapper-12 {
   position: absolute;
   width: 113px;
-  top: 71px;
+  top: 77px;
   left: 733px;
   font-family: "Roboto Flex", Helvetica;
   font-weight: 600;
@@ -401,9 +401,7 @@
   line-height: 120px;
   white-space: nowrap;
 }
-a{
-  color: #ffa500;
-}
+
 .box {
   width: 89px;
   height: 89px;
