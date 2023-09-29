@@ -1,7 +1,8 @@
-# Career Booster
+# Career-Booster
 
 Welcome to Career Booster - your ultimate career guidance and counseling platform! Career Booster is designed as a web application to help you navigate the complex world of career choices, offering personalized career roadmaps and AI-driven career counseling. Whether you're a student looking for guidance on choosing the right career path or a professional seeking to make a career change, Career Booster is here to assist you in making informed decisions.
 
+# Our Team  
 ![Career Booster Logo](https://raw.githubusercontent.com/kunalshah017/SIH-Hackathon/main/Assets/NeuralNinjas.png)
 
 ## Table of Contents
